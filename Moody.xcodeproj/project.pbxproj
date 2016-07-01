@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3E92BDCC1D1D97080072EB34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E92BDCB1D1D97080072EB34 /* AppDelegate.swift */; };
-		3E92BDCE1D1D97080072EB34 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E92BDCD1D1D97080072EB34 /* FirstViewController.swift */; };
-		3E92BDD01D1D97080072EB34 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E92BDCF1D1D97080072EB34 /* SecondViewController.swift */; };
+		3E92BDCE1D1D97080072EB34 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E92BDCD1D1D97080072EB34 /* EntryViewController.swift */; };
+		3E92BDD01D1D97080072EB34 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E92BDCF1D1D97080072EB34 /* CalendarViewController.swift */; };
 		3E92BDD31D1D97080072EB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E92BDD11D1D97080072EB34 /* Main.storyboard */; };
 		3E92BDD51D1D97080072EB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E92BDD41D1D97080072EB34 /* Assets.xcassets */; };
 		3E92BDD81D1D97080072EB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E92BDD61D1D97080072EB34 /* LaunchScreen.storyboard */; };
@@ -37,8 +37,8 @@
 /* Begin PBXFileReference section */
 		3E92BDC81D1D97080072EB34 /* Moody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moody.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E92BDCB1D1D97080072EB34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E92BDCD1D1D97080072EB34 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3E92BDCF1D1D97080072EB34 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3E92BDCD1D1D97080072EB34 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		3E92BDCF1D1D97080072EB34 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		3E92BDD21D1D97080072EB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E92BDD41D1D97080072EB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E92BDD71D1D97080072EB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				3E92BDCB1D1D97080072EB34 /* AppDelegate.swift */,
-				3E92BDCD1D1D97080072EB34 /* FirstViewController.swift */,
-				3E92BDCF1D1D97080072EB34 /* SecondViewController.swift */,
+				3E92BDCD1D1D97080072EB34 /* EntryViewController.swift */,
+				3E92BDCF1D1D97080072EB34 /* CalendarViewController.swift */,
 				3E92BDD11D1D97080072EB34 /* Main.storyboard */,
 				3E92BDD41D1D97080072EB34 /* Assets.xcassets */,
 				3E92BDD61D1D97080072EB34 /* LaunchScreen.storyboard */,
@@ -259,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E92BDD01D1D97080072EB34 /* SecondViewController.swift in Sources */,
+				3E92BDD01D1D97080072EB34 /* CalendarViewController.swift in Sources */,
 				3E92BDCC1D1D97080072EB34 /* AppDelegate.swift in Sources */,
-				3E92BDCE1D1D97080072EB34 /* FirstViewController.swift in Sources */,
+				3E92BDCE1D1D97080072EB34 /* EntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +488,7 @@
 				3E92BDF41D1D97080072EB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E92BDF51D1D97080072EB34 /* Build configuration list for PBXNativeTarget "MoodyTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +497,7 @@
 				3E92BDF71D1D97080072EB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E92BDF81D1D97080072EB34 /* Build configuration list for PBXNativeTarget "MoodyUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +506,7 @@
 				3E92BDFA1D1D97080072EB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

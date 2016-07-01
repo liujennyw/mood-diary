@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  EntryViewController.swift
 //  Moody
 //
 //  Created by George Du on 24/06/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class EntryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
