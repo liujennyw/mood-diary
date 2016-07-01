@@ -15,6 +15,7 @@
 		3E92BDD81D1D97080072EB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E92BDD61D1D97080072EB34 /* LaunchScreen.storyboard */; };
 		3E92BDE31D1D97080072EB34 /* MoodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E92BDE21D1D97080072EB34 /* MoodyTests.swift */; };
 		3E92BDEE1D1D97080072EB34 /* MoodyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E92BDED1D1D97080072EB34 /* MoodyUITests.swift */; };
+		3ECA9F3E1D26363800506CC2 /* MoodEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA9F3D1D26363800506CC2 /* MoodEntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3E92BDE91D1D97080072EB34 /* MoodyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E92BDED1D1D97080072EB34 /* MoodyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodyUITests.swift; sourceTree = "<group>"; };
 		3E92BDEF1D1D97080072EB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECA9F3D1D26363800506CC2 /* MoodEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodEntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				3E92BDCB1D1D97080072EB34 /* AppDelegate.swift */,
 				3E92BDCD1D1D97080072EB34 /* EntryViewController.swift */,
+				3ECA9F3D1D26363800506CC2 /* MoodEntryViewController.swift */,
 				3E92BDCF1D1D97080072EB34 /* CalendarViewController.swift */,
 				3E92BDD11D1D97080072EB34 /* Main.storyboard */,
 				3E92BDD41D1D97080072EB34 /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ECA9F3E1D26363800506CC2 /* MoodEntryViewController.swift in Sources */,
 				3E92BDD01D1D97080072EB34 /* CalendarViewController.swift in Sources */,
 				3E92BDCC1D1D97080072EB34 /* AppDelegate.swift in Sources */,
 				3E92BDCE1D1D97080072EB34 /* EntryViewController.swift in Sources */,
